@@ -4,9 +4,19 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar We want to be able to check in custom jar files needed for the project
 *.war
 *.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ignore files created under target folder by Maven
+target/
+
+# Ignore all log files
+logs/
+
+.pmd
+.checkstyle
+
